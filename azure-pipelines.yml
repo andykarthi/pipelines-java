@@ -3,11 +3,13 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
 
+
 trigger:
 - main
 
 pool:
   # Using self hosted agent, running in local machine
+  # To start local agent : $ ./myagent/run.sh 
   name: Default
   # Using the free runner from microsoft
   # vmImage: ubuntu-latest
